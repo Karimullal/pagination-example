@@ -14,7 +14,8 @@ public class SampleController {
 
 	@GetMapping
 	private String sayHello(@RequestParam("name") String name) {
-    return "Hello "+name;
+		System.out.println("MOVED TO TOMCAT SERVER ............");
+    		return "Hello "+name;
 	}
 	
 	
